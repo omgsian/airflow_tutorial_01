@@ -1,0 +1,13 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "Amazon Books",
+            "Group": "Servers",
+            "Host": "postgres",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "PassFile": "/pgpass",
+            "Username": "airflow"
+        }
+    }
+}
